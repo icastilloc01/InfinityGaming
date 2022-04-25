@@ -11,19 +11,25 @@
         android:id="@+id/textView4"
         android:layout_width="95dp"
         android:layout_height="38dp"
+        android:layout_marginBottom="28dp"
         android:text="39,99€"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.62" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="409dp"
         android:layout_height="83dp"
         android:layout_marginEnd="2dp"
+        android:layout_marginBottom="100dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,9 +39,15 @@
         android:id="@+id/imageView3"
         android:layout_width="91dp"
         android:layout_height="82dp"
-        app:srcCompat="@drawable/workou1"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="1dp" />
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/workou1" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -51,8 +63,12 @@
         android:id="@+id/imageView6"
         android:layout_width="259dp"
         android:layout_height="347dp"
-        app:srcCompat="@drawable/eldenring"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="183dp" />
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/eldenring" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
