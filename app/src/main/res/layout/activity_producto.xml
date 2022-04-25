@@ -64,8 +64,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="413dp"
-        android:layout_height="266dp"
+        android:layout_width="384dp"
+        android:layout_height="264dp"
         android:text="La historia de Elden Ring es la del Sinluz, un exiliado que regresa a un marchito y enorme reino conocido como las Tierras Intermedias. Su propósito: reclamar el poder del Círculo de Elden. Una gesta que lo enfrentará a criaturas de pesadilla y un cruel destino.  La leyenda cuenta que la decadencia de las Tierras Intermedias comenzó el día que el propio el Círculo de Elden, el origen del Árbol Áureo, fue destruido y reducido a fragmentos de enorme poder: las Grandes Runas.  Lamentablemente, la codicia de los mortales y el poder que todavía emitían aquellos restos del Círculo acabarán condenando al propio reino."
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
