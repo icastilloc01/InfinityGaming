@@ -7,14 +7,6 @@
     android:background="#4F5555"
     tools:context=".Tienda">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="276dp"
-        android:layout_height="295dp"
-        app:srcCompat="@drawable/Y5RHNmzAtc6sRYwZlYiKHAxN"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="218dp" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="95dp"
@@ -54,5 +46,13 @@
         android:text="Buscar"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="259dp"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/eldenring"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="183dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
